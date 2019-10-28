@@ -1,0 +1,37 @@
+<ActionBar class="action-bar">
+    <!--
+    Use the NavigationButton as a side-drawer button in Android
+    because ActionItems are shown on the right side of the ActionBar
+    -->
+    <!--<NavigationButton ios:visibility="collapsed" icon="res://menu" (tap)="onDrawerButtonTap()"></NavigationButton>-->
+    <!--
+    Use the ActionItem for IOS with position set to left. Using the
+    NavigationButton as a side-drawer button in iOS is not possible,
+    because its function is to always navigate back in the application.
+    -->
+    <!--<ActionItem icon="res://navigation/menu" android:visibility="collapsed" (tap)="onDrawerButtonTap()"-->
+                <!--ios.position="left">-->
+    <!--</ActionItem>-->
+    <Label class="action-bar-title" text="Вход"></Label>
+</ActionBar>
+
+<GridLayout class="page page-content">
+    <StackLayout class="form">
+        <Image class="logo" src="res://smart_home"></Image>
+        <Label class="header" text="Умен Дом"></Label>
+
+        <StackLayout class="input-field">
+            <Label text="Потребителско име" class="label font-weight-bold m-b-5"></Label>
+            <TextField class="input" hint="Потребителско име" autocorrect="false" autocapitalizationType="none" [(ngModel)]="account.username" returnKeyType="next" (returnPress)="focusPassword()"></TextField>
+            <StackLayout class="hr-light"></StackLayout>
+        </StackLayout>
+        <StackLayout class="input-field">
+            <TextField #password class="input" hint="Парола" secure="true" [(ngModel)]="account.password" [returnKeyType]="done"></TextField>
+            <StackLayout class="hr-light"></StackLayout>
+        </StackLayout>
+
+        <Button [text]="'Вход'" (tap)="submit()" class="btn btn-primary m-t-20"></Button>
+    </StackLayout>
+
+    <ActivityIndicator row="0" rowSpan="5" colSpan="2" #activityIndicator [busy]="isBusy" class="activity-indicator"></ActivityIndicator>
+</GridLayout>

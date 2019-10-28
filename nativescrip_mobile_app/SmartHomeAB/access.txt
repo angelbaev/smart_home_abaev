@@ -1,0 +1,156 @@
+https://smart-home-abaev.herokuapp.com/
+
+https://docs.nativescript.org/ns-framework-modules/application-settings
+https://github.com/NickIliev/nativescript-ng-cosmos/blob/master/app/services/login.service.ts#L34-L35
+https://www.nativescript.org/blog/building-an-awesome-login-screen-with-nativescript
+https://play.nativescript.org/?template=play-ng&id=Hqp5UQ&v=30&_ga=2.179407906.746695365.1568973513-142124787.1568973513
+
+https://www.thepolyglotdeveloper.com/2017/07/simple-login-registration-nativescript-angular-mobile-app/
+https://github.com/marklocklear/nativescript-simple-login
+
+-------------------
+https://docs.nativescript.org/tooling/docs-cli/project/testing/build-android
+https://nativescripting.com/course/nativescript-with-angular-getting-started-guide/
+https://courses.nativescripting.com/courses/169856/lectures/6887490
+angel_baev@mail.bg
+(J#G5yQp
+NativeScript with Angular Getting Started Guide
+https://courses.nativescripting.com/courses/169856/lectures/2573640
+https://courses.nativescripting.com/courses/169856/lectures/2573651
+https://courses.nativescripting.com/courses/169856/lectures/2573661
+https://courses.nativescripting.com/courses/169856/lectures/2573669
+https://courses.nativescripting.com/courses/169856/lectures/6887513
+https://courses.nativescripting.com/courses/169856/lectures/2573681
+
+--------------
+https://market.nativescript.org/?tab=samples&framework=all_frameworks&category=all_samples&_ga=2.102398913.1531204016.1569590744-313527638.1568297844
+https://play.nativescript.org/?template=play-ng&id=36AEWh&v=101
+https://play.nativescript.org/?template=play-ng&id=iDY4kF&v=11
+https://play.nativescript.org/?template=play-ng&id=TIzFdC&v=4
+https://play.nativescript.org/?template=play-ng&id=uADCXs&v=2
+https://play.nativescript.org/?template=play-ng&id=G78alI&v=2
+https://docs.nativescript.org/angular/ui/ng-components/action-bar
+https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-master-detail-ng
+https://github.com/NativeScript/nativescript-app-templates/tree/master/packages/template-master-detail-kinvey-ng
+https://docs.nativescript.org/angular/ui/ng-components/ng-RadListView/multiple-templates
+https://docs.nativescript.org/angular/ui/ng-components/dialogs - activate/ deactive via dialogs
+https://docs.nativescript.org/angular/ui/ng-components/switch !!!
+
+https://nativescript.nl/tips/how-to-create-a-multilingual-nativescript-app/
+https://github.com/EddyVerbruggen/nativescript-i18n
+
+https://discourse.nativescript.org/t/floating-button/1421/11
+
+https://www.w3schools.com/icons/icons_reference.asp !@!!
+------------------------
+NativeScript Core Getting Started Guide
+
+https://courses.nativescripting.com/courses/enrolled/171132
+
+Upgrading Cordova Applications to NativeScript
+https://courses.nativescripting.com/courses/enrolled/362074
+
+https://courses.nativescripting.com/courses/362074/lectures/5547092
+https://courses.nativescripting.com/courses/362074/lectures/5547109
+
+
+tns create HelloWorld --template tns-template-blank
+tns create LearnEnglish --template tns-template-drawer-navigation-ng
+
+tns devices android --available-devices --log trace
+tns devices --available-devices
+tns device android --available-devices
+tns platform add android
+
+tns run android
+tns run android --device 81069d88-afd7-4a11-adf6-497f0aa04bd0
+tns test android --device 077f97eb-b03a-42f6-a28e-926749662197
+tns run android --device 077f97eb-b03a-42f6-a28e-926749662197
+tns run android --emulator 077f97eb-b03a-42f6-a28e-926749662197a
+
+tns build android --copy-to D:\Web-Projects\angelbaev.com\nativescript\HelloWorld\platforms\android\build
+┌──────────────────────────────────────────────┬──────────┬─────────┬───────────────────┬──────────────────────────────────────┬────────────┐
+│ Device Name                                  │ Platform │ Version │ Device Identifier │ Image Identifier                     │ Error Help │
+│ Samsung Galaxy S2 - 4.1.1 - API 16 - 480x800 │ Android  │ 4.1.1   │                   │ f0eb9d50-efdf-4b44-9f56-4f0e4878ba2a │            │
+│ HTC One - 4.2.2 - API 17 - 1080x1920         │ Android  │ 4.2.2   │                   │ 939e3fee-9c72-4156-bab7-897700976051 │            │
+│ Custom Tablet - 7.0.0 - API 24 - 1536x2048   │ Android  │ 7.0     │                   │ 077f97eb-b03a-42f6-a28e-926749662197 │            │
+│ HTC One - 4.4.4 - API 19 - 1080x1920         │ Android  │ 4.4.4   │                   │ 9e653ed1-2e64-48b8-9f25-0a381f72771c │            │
+└──────────────────────────────────────────────┴──────────┴─────────┴───────────────────┴──────────────────────────────────────┴────────────┘
+
+C:\Users\angel\AppData\Local\Genymobile\Genymotion\deployed
+
+https://www.npmjs.com/package/nativescript-youtubeplayer
+https://github.com/triniwiz/nativescript-youtubeplayer/blob/master/src/angular/index.ts
+https://docs.nativescript.org/angular/start/introduction
+https://docs.nativescript.org/angular/code-sharing/intro
+https://docs.nativescript.org/angular/ui/ng-ui-widgets/listview
+https://www.nativescript.org/blog/a-deep-dive-into-telerik-ui-for-nativescripts-listview
+https://docs.nativescript.org/app-and-screen-templates/app-templates
+https://docs.nativescript.org/tooling/docs-cli/project/creation/create
+https://www.w3schools.com/icons/icons_reference.asp
+https://github.com/bradmartin/nativescript-cardview
+https://play.nativescript.org/?template=play-ng&id=bMb4PO&v=3
+https://github.com/NativeScript/template-master-detail-ng/tree/master/src/app/cars
+
+
+https://www.viralandroid.com/2015/09/how-to-embed-youtube-video-in-android-webview.html
+tns plugin add nativescript-youtubeplayer
+tns plugin remove nativescript-youtubeplayer
+tns plugin add nativescript-videoplayer
+
+
+https://stackoverflow.com/questions/45167125/android-playing-youtube-video-on-webview
+https://stackoverflow.com/questions/45167125/android-playing-youtube-video-on-webview
+https://www.viralandroid.com/2015/09/how-to-embed-youtube-video-in-android-webview.html
+
+
+tns build android --copy-to D:\Web-Projects\angelbaev.com\nativescript\LearnEnglish\platforms\android\build
+
+
+----------
+import { WebView, LoadEventData } from "tns-core-modules/ui/web-view";
+        // this.webViewSrc = "<html><body>Video From YouTube<br><iframe width=\"420\" height=\"315\" src=\"https://www.youtube.com/embed/47yJ2XCRLZs\" frameborder=\"0\" allowfullscreen></iframe></body></html>";
+            //"https://www.youtube.com/embed/L8hoOQD6lvg";
+        // let webview: WebView = this.webViewRef.nativeElement;
+
+        // webview.on(WebView.loadFinishedEvent, function (args: LoadEventData) {
+        //     let message;
+        //     if (!args.error) {
+        //         message = "WebView finished loading of " + args.url;
+        //     } else {
+        //         message = "Error loading " + args.url + ": " + args.error;
+        //     }
+        //
+        // });
+
+    <!--<WebView row="1" #myWebView [src]="webViewSrc"></WebView>-->
+    <!--<VideoPlayer-->
+            <!--src="https://www.youtube.com/embed/L8hoOQD6lvg"-->
+            <!--autoplay="true"-->
+            <!--height="300"></VideoPlayer>-->
+
+    <!--<ui:YoutubePlayer id="player" apiKey="AIzaSyCDH3BGQZT2ebUfSE8D3I8NLqaCPu4FRh0" src="{{src}}" height="250" width="100%" backgroundColor="gray" />-->
+
+    <!--<ListView [items]="tutorials" (itemTap)="onItemTap($event)" class="list-group">-->
+        <!--<ng-template let-tutorial="item" let-i="index" let-odd="odd" let-even="even">-->
+            <!--&lt;!&ndash; The item template can only have a single root view container (e.g. GridLayout, StackLayout, etc.)&ndash;&gt;-->
+            <!--<CardView class="cardStyle" margin="10" elevation="40" radius="1" >-->
+                <!--<GridLayout rows="10,30,30,250, auto, auto,10" columns="10,40, *, 30,10">-->
+                    <!--<Image src="https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?201606271147" stretch="aspectFit" verticalAlignment="stretch" col="1" row="1" rowSpan="2"></Image>-->
+                    <!--<Label class="createdBy text-left" horizontalAlignment="left" [text]="item.name" row="1" col="2" textWrap="true"></Label>-->
+                    <!--&lt;!&ndash;<Image [src]="'https://img.youtube.com/vi/'+item.MediaURL+'/mqdefault.jpg'" stretch="aspectFit" colSpan="3" col="1" row="3"></Image>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<Label horizontalAlignment="left" [text]="item.Title" colSpan="3" row="4" textWrap="true" col="1"></Label>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<Label  horizontalAlignment="left" [text]="item.Summary" textWrap="true" col="1" row="5" colSpan="3"></Label>&ndash;&gt;-->
+                <!--</GridLayout>-->
+            <!--</CardView>-->
+            <!--&lt;!&ndash;<StackLayout orientation="horizontal" class="list-group-item">&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;<Image src="https://img.youtube.com/vi/{{ tutorial.code }}/mqdefault.jpg"></Image>&ndash;&gt;-->
+                <!--&lt;!&ndash;<Label [text]="i+1" textWrap="true"></Label>&ndash;&gt;-->
+                <!--&lt;!&ndash;<Label text=" " textWrap="true"></Label>&ndash;&gt;-->
+                <!--&lt;!&ndash;<Label [text]="tutorial.name"></Label>&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;<Label text="Country: " textWrap="true"></Label>&ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;&lt;!&ndash;<Label [text]="country.name"></Label>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;</StackLayout>&ndash;&gt;-->
+        <!--</ng-template>-->
+    <!--</ListView>-->

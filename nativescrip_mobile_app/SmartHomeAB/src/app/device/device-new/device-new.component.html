@@ -1,0 +1,55 @@
+<ActionBar class="action-bar">
+    <!--
+    Use the NavigationButton as a side-drawer button in Android
+    because ActionItems are shown on the right side of the ActionBar
+    -->
+    <!--<NavigationButton ios:visibility="collapsed" icon="res://menu" (tap)="onDrawerButtonTap()"></NavigationButton>-->
+    <NavigationButton android.systemIcon="ic_menu_back" (tap)="onBackButtonTap()"></NavigationButton>
+    <!--
+    Use the ActionItem for IOS with position set to left. Using the
+    NavigationButton as a side-drawer button in iOS is not possible,
+    because its function is to always navigate back in the application.
+    -->
+    <ActionItem icon="res://navigation/menu" android:visibility="collapsed" (tap)="onDrawerButtonTap()"
+                ios.position="left">
+    </ActionItem>
+    <Label class="action-bar-title" text="Ново устройстово"></Label>
+</ActionBar>
+
+<GridLayout class="page page-content">
+    <!--<ScrollView class="page">-->
+        <StackLayout class="form"  *ngIf="device">
+            <StackLayout class="input-field">
+                <Label text="Наименование" class="label font-weight-bold m-b-5"></Label>
+                <TextField class="input" hint="Име на устройството" autocorrect="false" autocapitalizationType="none" [(ngModel)]="device.name" returnKeyType="next"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+            <StackLayout class="input-field">
+                <Label text="IP" class="label font-weight-bold m-b-5"></Label>
+                <TextField class="input" hint="IP на устройстовото" autocorrect="false" autocapitalizationType="none" [(ngModel)]="device.ip" returnKeyType="next"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+            <StackLayout class="input-field">
+                <Label text="Порт" class="label font-weight-bold m-b-5"></Label>
+                <TextField class="input" hint="Порт на устройството" autocorrect="false" autocapitalizationType="none" [(ngModel)]="device.port" returnKeyType="next"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+            <StackLayout class="input-field">
+                <Label text="Комади" class="label font-weight-bold m-b-5"></Label>
+                <TextField class="input" hint="Команди за устройстовото" autocorrect="false" autocapitalizationType="none" [(ngModel)]="device.commands" returnKeyType="next"></TextField>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+            <StackLayout class="input-field">
+                <Label text="Статус" class="label font-weight-bold m-b-5"></Label>
+                <Switch [checked]="device.isActive" (checkedChange)="onCheckedChange($event)" class="m-15" row="1" col="1" horizontalAlignment="left" [(ngModel)]="device.isActive" [returnKeyType]="done"></Switch>
+                <StackLayout class="hr-light"></StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+        <StackLayout height="25%" width="100%" verticalAlignment="bottom">
+            <Button [text]="'Запис'" (tap)="onSubmit()" class="btn btn-primary m-t-20"></Button>
+        </StackLayout>
+    <!--</ScrollView>-->
+
+    <ActivityIndicator row="0" rowSpan="5" colSpan="2" #activityIndicator [busy]="isBusy" class="activity-indicator"></ActivityIndicator>
+</GridLayout>

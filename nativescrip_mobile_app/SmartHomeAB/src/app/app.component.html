@@ -1,0 +1,48 @@
+<!--
+RadSideDrawer is a UI component part of the Progress NativeScript UI set of components.
+Learn more about the RadSideDrawer UI component and how it can be customized in this documentation article:
+http://docs.telerik.com/devtools/nativescript-ui/Controls/NativeScript/SideDrawer/getting-started
+-->
+<RadSideDrawer [drawerTransition]="sideDrawerTransition">
+    <GridLayout tkDrawerContent rows="auto, *" class="sidedrawer sidedrawer-left">
+        <StackLayout row="0" class="sidedrawer-header">
+            <Label class="sidedrawer-header-image fa" text="&#xf2bd;"></Label>
+            <Label class="sidedrawer-header-brand" [text]="account.username"></Label>
+            <!--<Label class="footnote" text="username@mail.com"></Label>-->
+        </StackLayout>
+
+        <ScrollView row="1">
+            <StackLayout class="sidedrawer-content">
+                <GridLayout columns="auto, *" class="sidedrawer-list-item" [class.selected]="isComponentSelected('/home')" (tap)="onNavItemTap('/home')">
+                    <Label col="0" text="&#xf126;" class="fa"></Label>
+                    <Label col="1" text="Управление на дома" class="p-r-10"></Label>
+                </GridLayout>
+
+                <GridLayout columns="auto, *" class="sidedrawer-list-item" [class.selected]="isComponentSelected('/device')" (tap)="onNavItemTap('/device')">
+                    <Label col="0" text="&#xf1b3;" class="fa"></Label>
+                    <!--&#xf085;-->
+                    <Label col="1" text="Устройства" class="p-r-10"></Label>
+                </GridLayout>
+
+                <GridLayout columns="auto, *" class="sidedrawer-list-item" [class.selected]="isComponentSelected('/history')" (tap)="onNavItemTap('/history')">
+                    <Label col="0" text="&#xf017;" class="fa"></Label>
+                    <Label col="1" text="История" class="p-r-10"></Label>
+                </GridLayout>
+
+                <GridLayout columns="auto, *" class="sidedrawer-list-item" [class.selected]="isComponentSelected('/phone')" (tap)="onNavItemTap('/phone')">
+                    <Label col="0" text="&#xf10b;" class="fa"></Label>
+                    <Label col="1" text="Информация за телефона" class="p-r-10"></Label>
+                </GridLayout>
+
+                <StackLayout class="hr-light"></StackLayout>
+
+                <GridLayout columns="auto, *" class="sidedrawer-list-item" [class.selected]="isComponentSelected('/settings')" (tap)="onNavItemTap('/settings')">
+                    <Label col="0" text="&#xf013;" class="fa"></Label>
+                    <Label col="1" text="Настройки" class="p-r-10"></Label>
+                </GridLayout>
+            </StackLayout>
+        </ScrollView>
+    </GridLayout>
+
+    <page-router-outlet tkMainContent class="page page-content"></page-router-outlet>
+</RadSideDrawer>
